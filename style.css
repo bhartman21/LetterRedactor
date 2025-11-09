@@ -1,0 +1,106 @@
+/* Color Palette: Navy Blue (#002859), Silver/Gray (#bdbdbd), White (#ffffff), Deep Red (#b30000) */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Light gray background */
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #002859; /* Navy Blue header */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #bdbdbd; /* Silver text */
+    font-size: 1.1em;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    padding: 8px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #002859; /* Navy Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover:enabled {
+    background-color: #003366; 
+    transform: translateY(-1px);
+}
+
+button:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+}
+
+#pdf-viewer-container {
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow-x: auto;
+}
+
+#instruction-text {
+    font-size: 1.1em;
+    color: #002859;
+    font-weight: bold;
+}
+
+.pdf-page-container {
+    position: relative;
+    margin: 20px auto;
+    border: 2px solid #bdbdbd; /* Silver border for pages */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* The red box style is handled directly by JavaScript on the canvas */
+.warning {
+    color: #b30000; /* Deep Red warning */
+    font-weight: bold;
+    margin-left: 15px;
+}

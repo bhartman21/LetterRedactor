@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VET-Redact: Secure Document PII Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> 
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>VET-Redact 🛡️</h1>
+        <p>A Secure, Client-Side Tool for Redacting PII in Veteran Documents.</p>
+    </header>
+
+    <div class="controls">
+        <input type="file" id="pdfFile" accept="application/pdf">
+        <button id="redactBtn" disabled>1. Blackout & Download Flattened</button> 
+        <span id="fileSizeWarning" class="warning"></span>
+    </div>
+
+    <main id="pdf-viewer-container">
+        <p id="instruction-text">Upload a PDF to begin. After upload, click and drag on the document to mark areas for blackout.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
