@@ -4,6 +4,8 @@
 
 VET-Redact is a free, secure web application designed specifically for veterans to protect their personal information when sharing claim letters, decision letters, and other sensitive documents. Built by a veteran, for veterans.
 
+**[🔗 Try VET-Redact now!](https://bhartman21.github.io/LetterRedactor/)**
+
 ## 🎯 Purpose
 
 When veterans need to share their VA claim letters or decision letters for assistance, advice, or advocacy, they often contain sensitive personal information including:
