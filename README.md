@@ -33,14 +33,14 @@ VET-Redact allows you to safely blackout this sensitive information and download
 - **Real-Time Preview**: See exactly what will be redacted before downloading
 - **Multiple Page Support**: Works with multi-page documents
 - **High-Quality Output**: Maintains document clarity while securing your information
-- **File Size Limit**: 20MB maximum for optimal performance
+- **File Size Limit**: 50MB maximum for optimal performance
 - **Free Forever**: No subscriptions, no hidden costs, no registration required
 
 ## 🚀 How to Use
 
 1. **Upload Your Document**
    - Click "Choose File" and select your PDF
-   - Supports files up to 20MB
+   - Supports files up to 50MB
    - Common formats: VA claim letters, decision letters, medical records
 
 2. **Mark Areas to Redact**
@@ -103,7 +103,7 @@ VET-Redact ensures your personal information stays protected.
 
 **Q: My PDF won't load**
 - Ensure the file is a valid PDF format
-- Check that the file size is under 20MB
+- Check that the file size is under 50MB
 - Try a different browser if issues persist
 
 **Q: Redaction areas aren't showing**
