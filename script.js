@@ -1,4 +1,4 @@
-const PDF_MAX_SIZE = 20 * 1024 * 1024; // 20 MB limit
+const PDF_MAX_SIZE = 50 * 1024 * 1024; // 50 MB limit
 const JPEG_QUALITY = 0.8;
 
 const fileInput = document.getElementById('pdfFile');
@@ -258,7 +258,7 @@ fileInput.addEventListener('change', async (e) => {
 
     originalFileName = file.name;
 
-    // 1. File size check (20MB limit)
+    // 1. File size check (50MB limit)
     if (file.size > PDF_MAX_SIZE) {
         sizeWarning.textContent = `Error: File size exceeds the ${PDF_MAX_SIZE / 1024 / 1024}MB limit.`;
         fileInput.value = ''; 
